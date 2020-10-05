@@ -2,7 +2,7 @@
   <div class="container">
     <div class="container__info">
       <p>
-        © Hecho con &lt;3 por <strong>Juan Loyola</strong>. HTML, CSS, JS  (w/ Vue.js) | Hosted by Github Pages
+        © Hecho con &lt;3 por <strong>Juan Loyola</strong>. HTML, CSS, JS  (w/ Vue.js) | Hosted by Hostman
       </p>
     </div>
   </div>
