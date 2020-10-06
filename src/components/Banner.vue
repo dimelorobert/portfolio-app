@@ -39,6 +39,7 @@
   .container{
     background-image: url('../assets/banner1.svg');
     background-repeat: no-repeat;
+    background-position-y: center;
     color: #fff;
     font-family: 'Poppins';
     background-size: 100%;
