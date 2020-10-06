@@ -41,7 +41,8 @@
     background-repeat: no-repeat;
     color: #fff;
     font-family: 'Poppins';
-    height: 100vh;
+    background-size: 100%;
+    display:block;
 
     display:flex;
     flex-direction: column;
