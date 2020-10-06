@@ -9,6 +9,12 @@
   </div>
 </template>
 
+<style lang="scss">
+
+html {
+  scroll-behavior: smooth;
+}
+</style>
 <script>
 import Banner from '@/components/Banner.vue'
 import AboutMe from '@/components/AboutMe.vue'

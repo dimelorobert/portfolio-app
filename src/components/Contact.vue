@@ -22,7 +22,7 @@
                   </h2>
                   </div>
                   <p>
-                    Projectos, ejercicios, y READMEs... <br>
+                    Proyectos, ejercicios, y READMEs... <br>
                     <a class="social" href="https://github.com/JuanLoyola" target="_blank">Ver perfil</a>
                   </p>
                 </div>
@@ -53,10 +53,10 @@
                   </h2>
                 </div>
                 <p>
-                  No hay problema, también cuento con uno.
+                  ¿Quien no tiene uno?
                 </p>
                 <a href="mailto:juan.loyola1@hotmail.com" class="social">
-                  juan.loyola1@hotmail.com
+                  Enviar email
                 </a>
               </div>
                 </div>

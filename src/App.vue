@@ -11,7 +11,7 @@
         </p>
       </div>
       <div>
-        <a href="#banner">Inicio</a>
+        <a href="#nav">Inicio</a>
         <a href="#about">Sobre mi</a>
         <a href="#service">Servicios</a>
         <a href="#portfolio">Portfolio</a>
