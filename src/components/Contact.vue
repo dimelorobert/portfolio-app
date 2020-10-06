@@ -55,9 +55,9 @@
                 <p>
                   No hay problema, también cuento con uno.
                 </p>
-                <p class="social">
+                <a href="mailto:juan.loyola1@hotmail.com" class="social">
                   juan.loyola1@hotmail.com
-                </p>
+                </a>
               </div>
                 </div>
             </div>
