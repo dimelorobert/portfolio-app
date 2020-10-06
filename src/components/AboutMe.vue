@@ -19,23 +19,25 @@
         </div>
       </div>
       <div class="container__horizontal__vertical--right">
-        <h2>
-          Hola, ¿Como estás?
-        </h2>
-        <br>
         <div>
-          <p>
-            Mi nombre es <strong>Juan</strong>. Me dedico al desarrollo web, más precisamente Front-end. Soy un apasionado desde chico por aprender lo más posible por mi constante necesidad de adquirir nuevos conocimientos en distintas áreas.
+          <h2 class="animate__animated animate__backInRight animate__delay-1s">
+            Hola, ¿Como estás?
+          </h2>
+          <br>
+          <div>
+            <p class="animate__animated animate__backInRight animate__delay-2s">
+              Mi nombre es <strong>Juan</strong>. Me dedico al desarrollo web, más precisamente Front-end. Soy un apasionado desde chico por aprender lo más posible por mi constante necesidad de adquirir nuevos conocimientos en distintas áreas.
+            </p>
+          </div>
+          <br>
+          <p class="animate__animated animate__backInRight animate__delay-2s">
+            Dado esto, es que me considero motivado constantemente para lograr seguir desarrollando mis habilidades, y crecer profesionalmente como Desarrollador Full-stack.
+          </p>
+          <br>
+          <p class="animate__animated animate__backInRight animate__delay-3s">
+            Ofrezco un <strong>servicio personalizado</strong> y flexible según las necesidades de cada persona desde el inicio hasta el final del proyecto. <strong>Desde Buenos Aires al mundo!</strong>
           </p>
         </div>
-        <br>
-        <p>
-          Dado esto, es que me considero motivado constantemente para lograr seguir desarrollando mis habilidades, y crecer profesionalmente como Desarrollador Full-stack.
-        </p>
-        <br>
-        <p>
-          Ofrezco un <strong>servicio personalizado</strong> y flexible según las necesidades de cada persona desde el inicio hasta el final del proyecto. <strong>Desde Buenos Aires al mundo!</strong>
-        </p>
       </div>
     </div>
   </div>
@@ -79,6 +81,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+        overflow: hidden;
+        animation:alternate;
 
         font-size: 16px;
         line-height: 25px;

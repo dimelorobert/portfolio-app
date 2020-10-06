@@ -38,7 +38,7 @@
 }
 
 #nav {
-  background: rgba(53, 56, 60, 0.70);
+  background: rgb(57, 58, 59);
   display:flex;
   justify-content: space-between;
   align-items: center;
