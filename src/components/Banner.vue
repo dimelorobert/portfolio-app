@@ -79,7 +79,7 @@
       color: #fff;
     }
     .name {
-      animation: animated-text 4s steps(29,end) 1s 1 normal both,
+      animation: animated-text 2s steps(29,end) 1s 1 normal both,
       animated-cursor 600ms steps(29,end) infinite;
     }
 
