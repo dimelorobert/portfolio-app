@@ -81,7 +81,7 @@
         display:flex;
         width: 100%;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         text-align: start;
       }
