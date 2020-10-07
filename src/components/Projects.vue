@@ -11,23 +11,42 @@
       </div>
     </div>
     <div class="projects">
-      <div class="projects__info">
+      <div class="projects__info" v-html="cards.info[0].title">
         <p>
-          <strong>Creo proyectos fuertes, con identidad.</strong>
+          <strong>{{title}}</strong>
         </p>
       </div>
       <br>
-      <div class="projects__works">
-        <div class="card">
-          <img src="@/assets/Birds2.png" alt="work1">
+      <!-- <div class="projects__works">
+        <div class="card" v-for="(item, index) in cards.info[0].variants" :key="index">
+          <img :src="item.image" alt="project">
+          <div class="card--active">
+            {{item.name}} <br>
+            {{item.text}}
+          </div>
         </div>
-        <div class="card">
-          <img src="@/assets/TanzeeCo.png" alt="work2">
-        </div>
-        <div class="card">
-          <img src="@/assets/Skylanding.png" alt="work3">
-        </div>
-      </div>
+      </div> -->
+      <section class="card-list" >
+        <article class="card" v-for="(item, index) in cards.info[0].variants" :key="index">
+          <header class="card-header">
+            <h2>{{item.name}}</h2>
+          </header>
+
+          <div>
+            <img :src="item.image" alt="project">
+          </div>
+
+            <div class="author-name">
+              <p>{{item.text}}</p>
+              <a href="https://github.com/JuanLoyola" target="_blank">Github</a> (EN PROCESO)
+            </div>
+          <div class="tags">
+            <p>html</p>
+            <p>css</p>
+            <p>vue.js</p>
+          </div>
+        </article>
+      </section>
     </div>
   </div>
 </template>
@@ -85,31 +104,119 @@
         text-align: start;
         border-top: 2px solid #1DAEEC;
       }
-      &__works{
-        display:flex;
-        justify-content: center;
+
+      .card-list {
+      display: flex;
+      padding: 3rem;
+      overflow-x: scroll;
+    }
+
+      .card-list::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
+
+      .card-list::-webkit-scrollbar-track {
+        background: #fff;
+      }
+
+      .card {
+        height: 350px;
+        width: 200px;
+        min-width: 250px;
+        padding: 1.5rem;
+        border-radius: 16px;
+        background: #17141d;
+        box-shadow: -1rem 0 1rem #000;
+        display: flex;
+        flex-direction: column;
+        transition: .2s;
+        margin: 0;
+        scroll-snap-align: start;
+        clear: both;
+        position: relative;
+      }
+
+      .card img{
+        width: 100%;
+      }
+
+      .card:focus-within~.card, .card:hover~.card {
+        transform: translateX(130px);
+      }
+
+      .card:hover {
+        transform: translateY(-1rem);
+      }
+
+      .card:not(:first-child) {
+        margin-left: -130px;
+      }
+
+      .card-header {
+        margin-bottom: auto;
+      }
+
+      .card-header h2 {
+        font-size: 20px;
+        margin: .25rem 0 auto;
+        text-decoration: none;
+        color: #fff;
+        border: 0;
+        display: inline-block;
+        cursor: pointer;
+      }
+
+      .card-author {
+        margin: 3rem 0 0;
+        display: grid;
+        grid-template-columns: 75px 1fr;
         align-items: center;
+        position: relative;
+      }
 
-        .card{
-          background: linear-gradient(90deg, #ECE9E6 0%, #FFFFFF 100%);
-          box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.5);
-          border-radius: 3px;
-          width: 417px;
-          height: 300px;
-          margin: 20px;
+      .author-name {
+        grid-area: auto;
+        box-sizing: border-box;
+        color: #6d6a6a;
+      }
 
+      .author-name p{
+        grid-area: auto;
+        box-sizing: border-box;
+        color: #f1f1f1;
+        font-size: 13px;
+        text-align: start;
+      }
+
+      .author-name a{
+        color: rgb(194, 146, 238);
+      }
+
+      .tags {
+        margin: 1rem 0 2rem;
+        padding: .5rem 0 1rem;
+        line-height: 2;
+        margin-bottom: 0;
+        display:flex;
+        flex-direction: row;
+      }
+
+      .tags p {
+          font-style: normal;
+          font-weight: 70px;
+          width: 15%;
+          font-size: .5rem;
+          color: #7a7a8c;
+          text-transform: uppercase;
           display:flex;
-          justify-content: space-evenly;
+          flex-direction: row;
+          justify-content: center;
           align-items: center;
-        }
-        .card:hover{
-          background: linear-gradient(180deg,  #ECE9E6 0%, rgba(21, 9, 9, 0) 120%), #3f92df;
-          transition: linear 350ms;
-        }
-        .card img{
-          width: 80%;
-          border-radius: 5px;
-        }
+          font-size: .66rem;
+          border: 3px solid #28242f;
+          border-radius: 2rem;
+          padding: .2rem .2rem .2rem;
       }
     }
   }
@@ -117,6 +224,49 @@
 
 <script>
 export default {
-  name: 'Projects'
+  name: 'Projects',
+  data () {
+    return {
+      cards: {
+        info: [
+          {
+            title: 'Creo proyectos fuertes, con identidad.',
+            variants: [
+              {
+                name: 'Birds',
+                image: 'https://i.imgur.com/gB9SkK8.png',
+                text: 'Diseño y desarrollo de landing page, proyecto usando REST API.'
+              },
+              {
+                name: 'Tanzee Co',
+                image: 'https://i.imgur.com/Xhs9gXO.png',
+                text: 'Diseño y desarrollo de landing page para una startup.'
+              },
+              {
+                name: 'Parallax',
+                image: 'https://i.imgur.com/4UGWcqj.png',
+                text: 'Diseño y desarrollo de landing page con efecto parallax y animaciones, proyecto a modo de práctica.'
+              },
+              {
+                name: 'Vr film',
+                image: 'https://i.imgur.com/LSDOHmK.png',
+                text: 'Diseño y desarrollo de landing page para una pelicula realizada en realidad virtual.'
+              },
+              {
+                name: 'Yoga APP',
+                image: 'https://i.imgur.com/ivUnXYm.png',
+                text: 'Diseño y desarrollo de landing page para aplicacion de Yoga, proyecto personal usando REST API. '
+              },
+              {
+                name: 'Landing for e-commerce',
+                image: 'https://i.imgur.com/H4VNBDP.png',
+                text: 'Diseño y desarrollo de landing page para E-commerce.'
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
 }
 </script>

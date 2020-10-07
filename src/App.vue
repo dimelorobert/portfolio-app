@@ -43,6 +43,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 50px;
+  z-index: 2;
 
   font-family: 'Poppins';
   color:#fff;
