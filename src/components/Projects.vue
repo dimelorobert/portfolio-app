@@ -203,20 +203,27 @@
       }
 
       .tags p {
-          font-style: normal;
-          font-weight: 70px;
-          width: 15%;
-          font-size: .5rem;
-          color: #7a7a8c;
-          text-transform: uppercase;
-          display:flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          font-size: .66rem;
-          border: 3px solid #28242f;
-          border-radius: 2rem;
-          padding: .2rem .2rem .2rem;
+        font-style: normal;
+        font-weight: 70px;
+        width: 15%;
+        font-size: .5rem;
+        color: #7a7a8c;
+        text-transform: uppercase;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: .66rem;
+        border: 3px solid #28242f;
+        border-radius: 2rem;
+        padding: .2rem .2rem .2rem;
+      }
+
+      .tags p:hover {
+        border: 3px solid rgb(146, 142, 142);
+        box-shadow: rgb(145, 141, 141) 1px 0px 28px;
+        color: #f1f1f1;
+        cursor:pointer;
       }
     }
   }
