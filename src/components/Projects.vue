@@ -257,12 +257,12 @@ export default {
               {
                 name: 'Vr film',
                 image: 'https://i.imgur.com/LSDOHmK.png',
-                text: 'Diseño y desarrollo de landing page para una pelicula realizada en realidad virtual.'
+                text: 'Diseño y desarrollo de landing page para una película realizada en realidad virtual.'
               },
               {
                 name: 'Yoga APP',
                 image: 'https://i.imgur.com/ivUnXYm.png',
-                text: 'Diseño y desarrollo de landing page para aplicacion de Yoga, proyecto personal usando REST API. '
+                text: 'Diseño y desarrollo de landing page para aplicación de Yoga, proyecto personal usando REST API. '
               },
               {
                 name: 'Landing for e-commerce',

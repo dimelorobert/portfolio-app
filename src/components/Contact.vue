@@ -53,7 +53,7 @@
                   </h2>
                 </div>
                 <p>
-                  ¿Quien no tiene uno?
+                  ¿Quíen no tiene uno?
                 </p>
                 <a href="mailto:juan.loyola1@hotmail.com" class="social">
                   Enviar email

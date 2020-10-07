@@ -8,8 +8,8 @@
         <img src="../assets/dev.png" alt="development">
       </div>
       <p>
-        Desarrollo de paginas web para impulsar todo tipo y tamaño de empresas.
-        Para ello ofrezco soluciones en cada parte del <strong>ciclo de vida</strong> de un sitio web o aplicación: diseño, programación y    mejora continua,
+        Desarrollo de páginas web para impulsar todo tipo y tamaño de empresas.
+        Para ello ofrezco soluciones en cada parte del <strong>ciclo de vida</strong> de un sitio web o aplicación: diseño, programación y mejora continua,
         podemos lograr los mejores resultados con las <strong>tecnologías más eficientes</strong>.
       </p>
     </div>
@@ -21,9 +21,9 @@
         <img src="../assets/Ecommerce.png" alt="e-commerce">
       </div>
       <p>
-        ¿Se le ocurrio un <strong>excelente negocio</strong>? ¿Quiere dar <strong>un paso más</strong> alla de su local fisico?
+        ¿Se le ocurrió un <strong>excelente negocio</strong>? ¿Quiere dar <strong>un paso más</strong> alla de su local físico?
         Podemos impulsar su proyecto con el uso de las más modernas APIs
-        con el fin de <strong>llegar a más clientes</strong>, ofrecer informacion de productos y <strong>facilitar el soporte</strong> al departamento de Marketing.
+        con el fin de <strong>llegar a más clientes</strong>, ofrecer información de productos y <strong>facilitar el soporte</strong> al departamento de Marketing.
       </p>
     </div>
     <div class="container__card">
@@ -35,7 +35,7 @@
       </div>
       <p>
         Diseño de paginas web responsive para que tu emprendimiento pueda ser visualizado desde todo dispositivo.
-        En la actualidad una de las partes importantes de un sitio web o aplicación es poder garantizar un correcto <strong>desempeño</strong> y <strong>visualizacion</strong> donde sea que se lo utilice.
+        En la actualidad una de las partes importantes de un sitio web o aplicación es poder garantizar un correcto <strong>desempeño</strong> y <strong>visualización</strong> donde sea que se lo utilice.
       </p>
     </div>
     <div class="container__card">

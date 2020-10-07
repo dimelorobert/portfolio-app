@@ -11,7 +11,7 @@
             Servicios que brindo
           </h2>
           <p>
-            Trabajo por proyecto o con planes mensuales, adaptandome a tus necesidades.
+            Trabajo por proyecto o con planes mensuales, adaptándome a tus necesidades.
             <br>
             <strong>SKILLS</strong> <br>
             HTML | CSS | JavaScript |  Vue.js | Bootstrap | SCSS | Visual Studio Code | Git | Github | Figma | BEM | GraphQL | REST | Firebase | Gestión por objetivos | Aprendizaje continuo | Creatividad
@@ -21,7 +21,7 @@
       <div class="container__horizontal__vertical--right">
         <div>
           <h2 class="animate__animated animate__backInRight animate__delay-2s">
-            Hola, ¿Como estás?
+            Hola, ¿Cómo estás?
           </h2>
           <br>
           <div>
@@ -35,7 +35,7 @@
           </p>
           <br>
           <p class="animate__animated animate__backInRight animate__delay-3s">
-            Ofrezco un <strong>servicio personalizado</strong> y flexible según las necesidades de cada persona desde el inicio hasta el final del proyecto. <strong>Desde Buenos Aires al mundo!</strong>
+            Ofrezco un <strong>servicio personalizado</strong> y flexible según las necesidades de cada persona desde el inicio hasta el final del proyecto. <strong>¡Desde Buenos Aires al mundo!</strong>
           </p>
         </div>
       </div>
