@@ -17,15 +17,6 @@
         </p>
       </div>
       <br>
-      <!-- <div class="projects__works">
-        <div class="card" v-for="(item, index) in cards.info[0].variants" :key="index">
-          <img :src="item.image" alt="project">
-          <div class="card--active">
-            {{item.name}} <br>
-            {{item.text}}
-          </div>
-        </div>
-      </div> -->
       <section class="card-list" >
         <article class="card" v-for="(item, index) in cards.info[0].variants" :key="index">
           <header class="card-header">
@@ -90,6 +81,22 @@
       &__info a:hover{
         background: #87d5ec;
       }
+
+      @media screen and (min-width:720px) and (max-width: 1080px) {
+    }
+    @media screen and (min-width:320px) and (max-width: 1080px){
+      .container{
+          width: 100%;
+        &__banner{
+          width: 100%;
+        }
+        &__info h2{
+          font-size: 14px;
+        }
+      }
+    }
+    @media screen and (max-width: 375px) {
+    }
     }
 
     .projects{

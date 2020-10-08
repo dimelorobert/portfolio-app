@@ -99,12 +99,12 @@
         font-size: 12px;
 
         &__horizontal{
-          width: 100%;
           &__vertical {
-            width: 15%;
+            width: 17%;
           }
+
           &__vertical img {
-            width: 100%;
+            width: 57%;
           }
 
           &__vertical--right {

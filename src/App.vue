@@ -71,6 +71,8 @@
     #nav{
       padding: 0px 5px;
       display:flex;
+      width: 100%;
+      position: relative;
 
       .name{
         font-size: 14px;
