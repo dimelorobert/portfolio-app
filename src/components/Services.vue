@@ -86,6 +86,31 @@
         text-align: start;
       }
     }
+    @media screen and (min-width:720px) and (max-width: 1080px) {
+    }
+    @media screen and (min-width:320px) and (max-width: 1080px){
+      .container{
+        width: 50%;
+        &__card{
+        width: 100%;
+      }
+      .card__title{
+          font-size: 14px;
+        }
+      }
+    }
+    @media screen and (max-width: 375px) {
+      .container{
+        width: 50%;
+        &__card{
+          width: 70%;
+
+          .card__title h2 {
+          font-size: 14px;
+        }
+        }
+      }
+    }
   }
 </style>
 

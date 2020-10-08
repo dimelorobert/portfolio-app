@@ -67,4 +67,23 @@
     color: rgb(233, 219, 20);
   }
 }
+  @media screen and (max-width: 480px){
+    #nav{
+      padding: 0px 5px;
+      display:flex;
+
+      .name{
+        font-size: 14px;
+      }
+      .title{
+        font-size: 12px;
+      }
+
+      a{
+        font-size: 12px;
+        display:flex;
+        flex-direction: row wrap;
+      }
+    }
+  }
 </style>

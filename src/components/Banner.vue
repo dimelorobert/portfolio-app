@@ -69,7 +69,7 @@
       font-style: normal;
       font-weight: normal;
       font-size: 46px;
-      line-height: 69px;
+      line-height: 49px;
     }
     .name {
       border-right: solid 3px rgba(0,255,0,.75);
@@ -89,8 +89,12 @@
     }
 
     @keyframes animated-cursor{
-      from{border-right-color: rgba(255,255,255,.9);}
-      to{border-right-color: transparent;}
+      from{
+        border-right-color: rgba(255,255,255,.9);
+      }
+      to{
+        border-right-color: transparent;
+      }
     }
 
     &__info--title{
@@ -122,6 +126,77 @@
     }
     &__social a img{
       width: 25px;
+    }
+
+    @media screen and (min-width:720px) and (max-width: 1080px) {
+    }
+
+    @media screen and (min-width:480px) and (max-width: 720px) {
+    }
+
+    @media screen and (max-width: 480px) {
+      .container{
+        background-size: 100%;
+        margin: 0px;
+        padding: 0px;
+
+        &__name{
+          display:flex;
+          flex-direction: row;
+        }
+      }
+      .container__info--name p {
+        font-size: 10px;
+        display:flex;
+      }
+
+      .container__info--name h2{
+        font-size: 16px;
+      }
+
+      .name {
+        animation: animated-text 2s steps(29,end) 1s 1 normal both,
+        animated-cursor 600ms steps(29,end) infinite;
+      }
+
+      @keyframes animated-text{
+        from{
+          width: 0;
+        }
+        to{
+          width: 95px;
+        }
+      }
+
+      @keyframes animated-cursor{
+      from{
+        border-right-color: rgba(255,255,255,.9);
+        height: 35px;
+      }
+      to{
+        border-right-color: transparent;
+        height: 35px;
+      }
+    }
+
+      .container__btn--portfolio{
+        width: 10%;
+        font-size: 8px;
+      }
+
+      .container__btn--contacto{
+        width: 10%;
+        font-size: 8px;
+      }
+
+      .container__social{
+        display:flex;
+        flex-direction: row;
+      }
+
+      .container__social img{
+        width: 19px;
+      }
     }
   }
 </style>

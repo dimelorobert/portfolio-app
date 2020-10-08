@@ -91,6 +91,45 @@
         letter-spacing: 0.03em;
       }
     }
+    @media screen and (min-width:720px) and (max-width: 1080px) {
+    }
+
+    @media screen and (max-width: 320px) {
+      .container{
+        font-size: 12px;
+
+        &__horizontal{
+          width: 100%;
+          &__vertical {
+            width: 15%;
+          }
+          &__vertical img {
+            width: 100%;
+          }
+
+          &__vertical--right {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .container{
+        font-size: 12px;
+
+        &__horizontal{
+          width:100%;
+          &__vertical img {
+            width: 100%;
+          }
+
+          &__vertical--right {
+            font-size: 13px;
+          }
+        }
+      }
+    }
   }
 </style>
 
