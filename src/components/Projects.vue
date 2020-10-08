@@ -81,22 +81,6 @@
       &__info a:hover{
         background: #87d5ec;
       }
-
-      @media screen and (min-width:720px) and (max-width: 1080px) {
-    }
-    @media screen and (min-width:320px) and (max-width: 1080px){
-      .container{
-          width: 100%;
-        &__banner{
-          width: 100%;
-        }
-        &__info h2{
-          font-size: 14px;
-        }
-      }
-    }
-    @media screen and (max-width: 375px) {
-    }
     }
 
     .projects{
@@ -234,6 +218,31 @@
       }
     }
   }
+
+@media screen and (min-width:320px) and (max-width: 320px){
+  .container{
+
+    .banner{
+
+      &__info h2{
+        font-size: 15px;
+      }
+
+      &__info a{
+        font-size: 13px;
+      }
+    }
+  }
+
+  .projects{
+    width: 100%;
+    &__info{
+      font-size: 14px;
+      text-align: start;
+      border-top: 2px solid #1DAEEC;
+    }
+  }
+}
 </style>
 
 <script>
