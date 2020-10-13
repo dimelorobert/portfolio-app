@@ -88,7 +88,7 @@
       flex-direction: column;
       &__info{
         margin: 30px;
-        width: 305px;
+        width: auto;
         display:flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -232,14 +232,17 @@
         font-size: 13px;
       }
     }
+    overflow: hidden;
   }
 
   .projects{
     width: 100%;
     &__info{
-      font-size: 14px;
-      text-align: start;
-      border-top: 2px solid #1DAEEC;
+      width: 55px;
+      font-size:0.9rem;
+      font-weight: bold;
+      text-align: center;
+      border-top: 5px solid #1DAEEC; /* seguir aca */
     }
   }
 }

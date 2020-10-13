@@ -5,18 +5,6 @@
         <div class="container__horizontal__vertical--png">
         <img src="@/assets/png2.svg" alt="png personal">
         </div>
-        <div class="container__horizontal__vertical--info">
-          <img src="@/assets/separador1.svg" alt="separador">
-          <h2>
-            Servicios que brindo
-          </h2>
-          <p>
-            Trabajo por proyecto o con planes mensuales, adaptándome a tus necesidades.
-            <br>
-            <strong>SKILLS</strong> <br>
-            HTML | CSS | JavaScript |  Vue.js | Bootstrap | SCSS | Visual Studio Code | Git | Github | Figma | BEM | GraphQL | REST | Firebase | Gestión por objetivos | Aprendizaje continuo | Creatividad
-          </p>
-        </div>
       </div>
       <div class="container__horizontal__vertical--right">
         <div>
@@ -35,7 +23,12 @@
           </p>
           <br>
           <p class="animate__animated animate__backInRight animate__delay-3s">
-            Ofrezco un <strong>servicio personalizado</strong> y flexible según las necesidades de cada persona desde el inicio hasta el final del proyecto. <strong>¡Desde Buenos Aires al mundo!</strong>
+            Ofrezco un <strong>servicio personalizado</strong> y flexible, ya sea por proyecto o con planes mensuales. según las necesidades de cada persona desde el inicio hasta el final del proyecto. <strong>¡Desde Buenos Aires al mundo!</strong>
+          </p>
+          <br>
+          <p class="animate__animated animate__backInRight animate__delay-3s">
+            <strong>Skills </strong> <br>
+            HTML | CSS | JavaScript |  Vue.js | Bootstrap | SCSS | BEM | Visual Studio Code | Git | Github | Figma | Gestión por objetivos | Aprendizaje continuo | Creatividad |
           </p>
         </div>
       </div>
@@ -99,29 +92,58 @@
         font-size: 12px;
 
         &__horizontal{
+          display:flex;
+          flex-flow: row wrap;
           &__vertical {
-            width: 17%;
+            width: 100%;
           }
-
-          &__vertical img {
-            width: 57%;
+          &__vertical p{
+            font-size: 12px;
+            padding: 5px;
+          }
+          &__vertical--png {
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            width:250px;
+            height:250px;
+          }
+          &__vertical--png img{
+            width:250px;
+            height:350px;
           }
 
           &__vertical--right {
-            font-size: 10px;
+            font-size: 13px;
           }
         }
       }
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (min-width: 375px) and (max-width: 480px) {
       .container{
         font-size: 12px;
 
         &__horizontal{
-          width:100%;
-          &__vertical img {
+          display:flex;
+          flex-flow: row wrap;
+          &__vertical {
             width: 100%;
+          }
+          &__vertical p{
+            font-size: 12px;
+            padding: 5px;
+          }
+          &__vertical--png {
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            width:250px;
+            height:250px;
+          }
+          &__vertical--png img{
+            width:250px;
+            height:350px;
           }
 
           &__vertical--right {

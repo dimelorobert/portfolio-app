@@ -22,7 +22,7 @@
                   </h2>
                   </div>
                   <p>
-                    Proyectos, ejercicios, y READMEs... <br>
+                    Proyectos, ejercicios <br> y READMEs... <br>
                     <a class="social" href="https://github.com/JuanLoyola" target="_blank">Ver perfil</a>
                   </p>
                 </div>
@@ -37,7 +37,7 @@
                     </h2>
                   </div>
                   <p>
-                    Ya conoces el procedimiento. <br>
+                    Ya conoces el <br> procedimiento. <br>
                     <a class="social" href="https://www.linkedin.com/in/LoyolaJuan" target="_blank">Ver perfil</a>
                   </p>
                 </div>
@@ -53,7 +53,7 @@
                   </h2>
                 </div>
                 <p>
-                  ¿Quíen no tiene uno?
+                  ¿Quíen no <br> tiene uno?
                 </p>
                 <a href="mailto:juan.loyola1@hotmail.com" class="social">
                   Enviar email
@@ -87,7 +87,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        height: 70vh;
       }
       .contact__banner--info{
         display:flex;
@@ -98,7 +97,7 @@
       }
       .contact__banner--info h2{
         font-family: 'Poppins';
-        font-size: 48px;
+        font-size: 2em;
         line-height: 72px;
         display:flex;
         justify-content: flex-start;
@@ -109,7 +108,7 @@
       }
       .contact__banner--info p{
         font-family: 'Poppins';
-        font-size: 15px;
+        font-size: 1rem;
         line-height: 22px;
         margin-top: 30px;
         display: flex;
@@ -172,6 +171,73 @@
         }
       }
     }
+  }
+
+  @media screen and (min-width:320px) and (max-width: 1024px) {
+    .container{
+    &__contact{
+      width: 100%;
+      .contact__banner{
+        width: 90%;
+        background: linear-gradient(90deg, #ECE9E6 0%, #FFFFFF 100%);
+        box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.5);
+        border-radius: 9px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      }
+      .contact__banner--social{
+        .social__horizontal{
+          .social__horizontal--all img{
+            width: 30px;
+            margin: 5px;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          }
+          .social__horizontal--all{
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+          }
+          .social__horizontal--column{
+            display:flex;
+            flex-flow: column;
+
+            font-family: 'Poppins';
+            font-size: 0.5rem;
+            line-height: 20px;
+
+            color: #000000;
+
+            .email{
+              height: 30px;
+              filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            }
+          }
+          .social{
+            text-decoration: none;
+            border: 1px solid #7389E1;
+            border-radius: 2px;
+            padding: 0px 5px;
+            font-size: 0.5rem;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2px;
+          }
+          .social:hover{
+            background-color:#7389E1;
+            color: #fff;
+            transition: linear 500ms;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+    }
+
+  @media screen and (min-width:320px) and (max-width: 320px){
   }
 </style>
 
