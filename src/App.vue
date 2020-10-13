@@ -67,22 +67,22 @@
     color: rgb(233, 219, 20);
   }
 }
-  @media screen and (max-width: 480px){
+  @media screen and (min-width: 320px) and (max-width:375px){
     #nav{
-      padding: 0px 5px;
+      padding: 0px 0px;
       display:flex;
-      width: 100%;
+      width:100%;
       position: relative;
 
       .name{
-        font-size: 14px;
+        font-size: 0.8rem;
       }
       .title{
-        font-size: 12px;
+        font-size: 0.6rem;
       }
 
       a{
-        font-size: 12px;
+        font-size: 0.6rem;
         display:flex;
         flex-direction: row wrap;
       }

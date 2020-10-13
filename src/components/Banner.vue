@@ -2,9 +2,6 @@
   <div class="container">
     <div class="container__info">
       <div class="container__info--name">
-        <p>
-          Hi! I'm
-        </p>
         <h2 class="name">
           Juan Loyola
         </h2>
@@ -128,12 +125,6 @@
       width: 25px;
     }
 
-    @media screen and (min-width:720px) and (max-width: 1080px) {
-    }
-
-    @media screen and (min-width:480px) and (max-width: 720px) {
-    }
-
     @media screen and (max-width: 480px) {
       .container{
         background-size: 100%;
@@ -151,7 +142,7 @@
       }
 
       .container__info--name h2{
-        font-size: 16px;
+        font-size: 1rem;
       }
 
       .name {
@@ -164,7 +155,7 @@
           width: 0;
         }
         to{
-          width: 95px;
+          width: 93px;
         }
       }
 
