@@ -23,7 +23,7 @@
           </p>
           <br>
           <p class="animate__animated animate__backInRight animate__delay-3s">
-            Ofrezco un <strong>servicio personalizado</strong> y flexible, ya sea por proyecto o con planes mensuales. según las necesidades de cada persona desde el inicio hasta el final del proyecto. <strong>¡Desde Buenos Aires al mundo!</strong>
+            Ofrezco un <strong>servicio personalizado</strong> y flexible, ya sea por proyecto o con planes mensuales. Según las necesidades de cada persona desde el inicio hasta el final del proyecto. <strong>¡Desde Buenos Aires al mundo!</strong>
           </p>
           <br>
           <p class="animate__animated animate__backInRight animate__delay-3s">

@@ -1,53 +1,13 @@
 <template>
   <div id="service" class="container">
-    <div class="container__card">
+    <div class="container__card" v-for="(item, index) in services.info[0].variants" :key="index">
       <div class="card__title">
         <h2>
-          Web <br> Development
+          {{item.name}}
         </h2>
-        <img src="https://i.imgur.com/yZevfRF.png" alt="development">
+        <img :src="item.image" alt="project">
       </div>
-      <p>
-        Desarrollo de páginas web para impulsar todo tipo y tamaño de empresas.
-        Para ello ofrezco soluciones en cada parte del <strong>ciclo de vida</strong> de un sitio web o aplicación: diseño, programación y mejora continua,
-        podemos lograr los mejores resultados con las <strong>tecnologías más eficientes</strong>.
-      </p>
-    </div>
-    <div class="container__card">
-      <div class="card__title">
-        <h2>
-          E-commerce
-        </h2>
-        <img src="https://i.imgur.com/M0UoXXG.png" alt="e-commerce">
-      </div>
-      <p>
-        ¿Se le ocurrió un <strong>excelente negocio</strong>? ¿Quiere dar <strong>un paso más</strong> alla de su local físico?
-        Podemos impulsar su proyecto con el uso de las más modernas APIs
-        con el fin de <strong>llegar a más clientes</strong>, ofrecer información de productos y <strong>facilitar el soporte</strong> al departamento de Marketing.
-      </p>
-    </div>
-    <div class="container__card">
-      <div class="card__title">
-        <h2>
-          Diseño Responsive
-        </h2>
-        <img src="https://i.imgur.com/s4nkaGt.png" alt="responsive">
-      </div>
-      <p>
-        Diseño de paginas web responsive para que tu emprendimiento pueda ser visualizado desde todo dispositivo.
-        En la actualidad una de las partes importantes de un sitio web o aplicación es poder garantizar un correcto <strong>desempeño</strong> y <strong>visualización</strong> donde sea que se lo utilice.
-      </p>
-    </div>
-    <div class="container__card">
-      <div class="card__title">
-        <h2>
-          ¿Necesita algo más?
-        </h2>
-        <img src="https://i.imgur.com/ACYWGRR.png" alt="design">
-      </div>
-      <p>
-        Si usted es el tipo de cliente donde día a día se le ocurren nuevas formas de impulsar su negocio o simplemente encuentra antiguo su sitio web actual, puede contactarme para hablar sobre sus ideas o proyectos que tiene en mente para llevar el trabajo en conjunto y mostrarle al mundo esa <strong>gran idea suya</strong>.
-      </p>
+      <p>{{item.text}}</p>
     </div>
   </div>
 </template>
@@ -110,6 +70,38 @@
 
 <script>
 export default {
-  name: 'Services'
+  name: 'Services',
+  data () {
+    return {
+      services: {
+        info: [
+          {
+            variants: [
+              {
+                name: 'Web Development',
+                image: 'https://i.imgur.com/yZevfRF.png',
+                text: 'Desarrollo de páginas web para impulsar todo tipo y tamaño de empresas. Para ello ofrezco soluciones en cada parte del ciclo de vida de un sitio web o aplicación: diseño, programación y mejora continua, podemos lograr los mejores resultados con las tecnologías más eficientes.'
+              },
+              {
+                name: 'E-commerce',
+                image: 'https://i.imgur.com/M0UoXXG.png',
+                text: '¿Se le ocurrió un excelente negocio? ¿Quiere dar un paso más alla de su local físico? Podemos impulsar su proyecto con el uso de las más modernas APIs con el fin de llegar a más clientes, ofrecer información de productos y facilitar el soporte al departamento de Marketing.'
+              },
+              {
+                name: 'Diseño Responsive',
+                image: 'https://i.imgur.com/s4nkaGt.png',
+                text: 'Diseño de paginas web responsive para que tu emprendimiento pueda ser visualizado desde todo dispositivo. En la actualidad una de las partes importantes de un sitio web o aplicación es poder garantizar un correcto desempeño y visualización donde sea que se lo utilice.'
+              },
+              {
+                name: '¿Necesita algo más?',
+                image: 'https://i.imgur.com/ACYWGRR.png',
+                text: 'Si usted es el tipo de cliente donde día a día se le ocurren nuevas formas de impulsar su negocio o simplemente encuentra antiguo su sitio web actual, puede contactarme para hablar sobre sus ideas o proyectos que tiene en mente para llevar el trabajo en conjunto y mostrarle al mundo esa gran idea suya.'
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
 }
 </script>
