@@ -67,7 +67,7 @@
     color: rgb(233, 219, 20);
   }
 }
-  @media screen and (min-width: 320px) and (max-width:375px){
+  @media screen and (min-width: 320px) and (max-width:411px){
     #nav{
       padding: 0px 0px;
       display:flex;

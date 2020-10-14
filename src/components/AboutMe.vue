@@ -87,7 +87,7 @@
     @media screen and (min-width:720px) and (max-width: 1080px) {
     }
 
-    @media screen and (max-width: 320px) {
+    @media screen and (min-width: 320px) and (max-width: 360px) {
       .container{
         font-size: 12px;
 
