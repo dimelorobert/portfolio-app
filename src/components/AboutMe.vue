@@ -3,7 +3,7 @@
     <div class="container__horizontal">
       <div class="container__horizontal__vertical">
         <div class="container__horizontal__vertical--png">
-        <img src="@/assets/png2.svg" alt="png personal">
+        <img src="@/assets/png.svg" alt="png personal">
         </div>
       </div>
       <div class="container__horizontal__vertical--right">
