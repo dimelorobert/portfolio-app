@@ -166,7 +166,7 @@
           width: 0;
         }
         to{
-          width: 95px;
+          width: 100px;
         }
       }
 
