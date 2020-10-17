@@ -147,7 +147,7 @@
       background-repeat: no-repeat;
       background-position-y: center;
       background-position: right;
-      background-size: 50%;
+      background-size: 45%;
 
       &__info{
         justify-content:flex-start;
@@ -155,7 +155,7 @@
         margin-left: 5px;
       }
       .container__info--name h2{
-        font-size:1.3rem;
+        font-size:1rem;
       }
       .container__info--name p {
         font-size: 10px;
@@ -166,7 +166,7 @@
           width: 0;
         }
         to{
-          width: 123px;
+          width: 95px;
         }
       }
 
@@ -205,6 +205,7 @@
   @media screen and (min-width: 768px) and (max-width: 780px){
     .container{
       background-position: right;
+      background-size: 50%;
     }
   }
 </style>
