@@ -21,10 +21,7 @@
                     Github
                   </h2>
                   </div>
-                  <p>
-                    Proyectos, ejercicios <br> y READMEs... <br>
                     <a class="social" href="https://github.com/JuanLoyola" target="_blank">Ver perfil</a>
-                  </p>
                 </div>
               </div>
               <div>
@@ -36,10 +33,7 @@
                       LinkedIn
                     </h2>
                   </div>
-                  <p>
-                    Ya conoces el <br> procedimiento. <br>
                     <a class="social" href="https://www.linkedin.com/in/LoyolaJuan" target="_blank">Ver perfil</a>
-                  </p>
                 </div>
               </div>
               </div>
@@ -52,9 +46,6 @@
                     Email
                   </h2>
                 </div>
-                <p>
-                  ¿Quíen no <br> tiene uno?
-                </p>
                 <a href="mailto:juan.loyola1@hotmail.com" class="social">
                   Enviar email
                 </a>
@@ -80,7 +71,10 @@
       justify-content: center;
       align-items: center;
       .contact__banner{
-        background: linear-gradient(90deg, #ECE9E6 0%, #FFFFFF 100%);
+        background-image: url('../assets/contact.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 700px;
         box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.5);
         border-radius: 9px;
         display:flex;
@@ -98,12 +92,12 @@
       .contact__banner--info h2{
         font-family: 'Poppins';
         font-size: 2em;
+        color: #fff;
+        font-weight: bold;
         line-height: 72px;
         display:flex;
         justify-content: flex-start;
         align-items: flex-start;
-
-        color: #333333;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
       }
       .contact__banner--info p{
@@ -158,13 +152,14 @@
             display:flex;
             justify-content: center;
             align-content: flex-end;
-            border: 1px solid #7389E1;
+            background-color:#7389E1;
+            color: #fff;
             border-radius: 5px;
             padding: 5px 5px;
           }
           .social:hover{
-            background-color:#7389E1;
-            color: #fff;
+            background-color:#9babeb;
+            color: #f1f1f1;
             transition: linear 500ms;
             cursor: pointer;
           }
@@ -179,7 +174,7 @@
       width: 100%;
       .contact__banner{
         width: 90%;
-        background: linear-gradient(90deg, #ECE9E6 0%, #FFFFFF 100%);
+        background-size: 70%;
         box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.5);
         border-radius: 9px;
         display:flex;

@@ -7,7 +7,7 @@
         </p>
         <br>
         <p class="title">
-          Front-end developer
+          Desarrollador Web <span class="important">Front-end</span>
         </p>
       </div>
       <div>
@@ -58,13 +58,19 @@
     font-size: 14px;
     margin-top: -15px;
   }
+
+  .important{
+    color:#f79a83;
+    font-weight: bold;
+  }
+
   a {
     color: #fff;
     text-decoration: none;
     margin:10px;
   }
   a:hover {
-    color: rgb(233, 219, 20);
+    color:#7389E1;
   }
 }
   @media screen and (min-width: 320px) and (max-width:1034px){

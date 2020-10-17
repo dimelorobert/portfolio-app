@@ -3,7 +3,6 @@
     <div class="container__horizontal">
       <div class="container__horizontal__vertical">
         <div class="container__horizontal__vertical--png">
-        <img src="@/assets/png.svg" alt="png personal">
         </div>
       </div>
       <div class="container__horizontal__vertical--right">
@@ -65,6 +64,9 @@
         text-align: start;
         align-items: center;
         letter-spacing: 0.03em;
+        background-image: url('../assets/coding_.svg');
+        background-repeat: no-repeat;
+        background-position-y: center;
       }
       &__vertical--right{
         width: 50%;
@@ -83,8 +85,6 @@
         align-items: center;
         letter-spacing: 0.03em;
       }
-    }
-    @media screen and (min-width:720px) and (max-width: 1080px) {
     }
 
     @media screen and (min-width: 320px) and (max-width: 360px) {
