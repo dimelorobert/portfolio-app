@@ -18,7 +18,7 @@
           </div>
           <br>
           <p class="animate__animated animate__backInRight animate__delay-3s">
-            Dado esto, es que me considero motivado constantemente para lograr seguir desarrollando mis habilidades, y crecer profesionalmente como Desarrollador Full-stack.
+            Dado esto empecé a educarme como autodidacta y me considero motivado constantemente para lograr seguir desarrollando mis habilidades, para así crecer profesionalmente como Desarrollador Full-Stack.
           </p>
           <br>
           <p class="animate__animated animate__backInRight animate__delay-3s">
