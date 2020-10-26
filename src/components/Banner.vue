@@ -5,16 +5,15 @@
         <h2 class="name">
           Juan Loyola
         </h2>
-        <p class="container__info--title">
-          Desarrollador Web <span class="important">Front-end</span>
+        <p class="container__info--title" v-html="$t('banner.title')">
         </p>
       </div>
       <div class="container__btn">
         <a class="container__btn--portfolio" href="#portfolio">
-          Mi Portfolio
+          {{ $t ('banner.portfolio') }}
         </a>
         <a class="container__btn--contacto" href="#contact">
-          Contactame
+          {{ $t ('banner.contact') }}
         </a>
       </div>
       <div class="container__social">
@@ -35,9 +34,9 @@
 <style lang="scss" scoped>
   .container{
     background: #f1f1f1;
-    background-image: url('../assets/png.svg');
+    background-image: url('../assets/sample2.png');
     background-repeat: no-repeat;
-    background-position-y: center;
+    background-position-y: bottom;
     background-position: center;
     color: #333;
     font-family: 'Poppins';
@@ -137,7 +136,7 @@
     }
   }
 
-  @media screen and (min-width: 320px) and (max-width: 415px) {
+  @media screen and (min-width: 320px) and (max-width: 1150px) {
     .container{
       display:flex;
       flex-direction: column;
@@ -199,13 +198,6 @@
       .container__social img{
         width: 19px;
       }
-    }
-  }
-
-  @media screen and (min-width: 768px) and (max-width: 780px){
-    .container{
-      background-position: right;
-      background-size: 50%;
     }
   }
 </style>

@@ -6,9 +6,7 @@
           Juan Loyola
         </p>
         <br>
-        <p class="title">
-          Desarrollador Web <span class="important">Front-end</span>
-        </p>
+        <p class="title" v-html="$t ('nav.title')"/>
       </div>
       <div>
         <input type="checkbox" id="click">
@@ -16,11 +14,11 @@
         <i class="fas fa-bars"></i>
       </label>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">Sobre mi</a></li>
-        <li><a href="#service">Servicios</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contacto</a></li>
+        <li><a href="#">{{ $t ('nav.home') }}</a></li>
+        <li><a href="#about">{{ $t ('nav.about') }}</a></li>
+        <li><a href="#service">{{ $t ('nav.service') }}</a></li>
+        <li><a href="#portfolio">{{ $t ('nav.portfolio') }}</a></li>
+        <li><a href="#contact">{{ $t ('nav.contact') }}</a></li>
       </ul>
       </div>
     </div>
@@ -76,8 +74,8 @@
   a {
     color: #fff;
     text-decoration: none;
-    margin:10px;
-    padding: 10px 10px;
+    margin:2px;
+    padding: 10px 3px;
   }
   a:hover {
     color:#7389E1;
@@ -89,7 +87,7 @@
     list-style: none;
   }
   #nav ul li{
-    margin: 0 3px;
+    margin: 0 2px;
   }
   #nav ul li a{
     color: #f2f2f2;

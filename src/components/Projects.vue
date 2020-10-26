@@ -3,17 +3,17 @@
     <div id="portfolio" class="banner">
       <div class="banner__info">
         <h2>
-          ¿Querés que trabajemos juntos?
+          {{$t('project.banner')}}
         </h2>
         <a href="#contact">
-          HABLEMOS
+          {{$t('project.btn')}}
         </a>
       </div>
     </div>
     <div class="projects">
-      <div class="projects__info" v-html="cards.info[0].title">
+      <div class="projects__info">
         <p>
-          <strong>{{title}}</strong>
+          <strong>{{$t('project.text')}}</strong>
         </p>
       </div>
       <br>
@@ -29,7 +29,8 @@
 
             <div class="author-name">
               <p>{{item.text}}</p>
-              <a href="https://github.com/JuanLoyola" target="_blank">Github</a> (EN PROCESO)
+              <a :href= "item.github" target="_blank">Github</a>
+              <a :href= "item.live" >Live</a>
             </div>
           <div class="tags">
             <p>html</p>
@@ -182,15 +183,18 @@
 
       .author-name a{
         color: rgb(194, 146, 238);
+        display:flex;
+        justify-content: flex-start;
+        margin: 2px;
       }
 
       .tags {
-        margin: 1rem 0 2rem;
-        padding: .5rem 0 1rem;
-        line-height: 2;
+        margin: 0.5rem 0 2rem;
         margin-bottom: 0;
         display:flex;
         flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
       }
 
       .tags p {
@@ -211,7 +215,7 @@
       }
 
       .tags p:hover {
-        border: 3px solid rgb(146, 142, 142);
+        border: 3px solid rgba(31, 233, 172, 0.726);
         box-shadow: rgb(145, 141, 141) 1px 0px 28px;
         color: #f1f1f1;
         cursor:pointer;
@@ -256,37 +260,55 @@ export default {
       cards: {
         info: [
           {
-            title: 'Creo proyectos fuertes, con identidad.',
             variants: [
               {
-                name: 'Birds',
+                name: 'Birds EN PROCESO',
                 image: 'https://i.imgur.com/gB9SkK8.png',
-                text: 'Diseño y desarrollo de landing page, proyecto usando REST API.'
+                text: 'Diseño y desarrollo de landing page, proyecto usando REST API.',
+                github: 'https://github.com/JuanLoyola',
+                live: '#'
               },
               {
-                name: 'Tanzee Co',
+                name: 'Tanzee Co EN PROCESO ',
                 image: 'https://i.imgur.com/Xhs9gXO.png',
-                text: 'Diseño y desarrollo de landing page para una startup.'
+                text: 'Diseño y desarrollo de landing page para una startup.',
+                github: 'https://github.com/JuanLoyola',
+                live: '#'
               },
               {
-                name: 'Parallax',
+                name: 'Weather app',
+                image: 'https://i.imgur.com/Bxy6Oy0.png',
+                text: 'Diseño y desarrollo de una app de clima, donde escribis el pais/lugar para obtener la información.',
+                github: 'https://github.com/JuanLoyola/weather-app',
+                live: 'https://weather-app-afa7.hostman.site'
+              },
+              {
+                name: 'Blog',
                 image: 'https://i.imgur.com/4UGWcqj.png',
-                text: 'Diseño y desarrollo de landing page con efecto parallax y animaciones, proyecto a modo de práctica.'
+                text: 'Diseño y desarrollo de un Blog con animaciones.',
+                github: 'https://github.com/JuanLoyola/Blog-Animations',
+                live: 'https://blog-animations.hostman.site'
               },
               {
-                name: 'Vr film',
+                name: 'Vr film EN PROCESO',
                 image: 'https://i.imgur.com/LSDOHmK.png',
-                text: 'Diseño y desarrollo de landing page para una película realizada en realidad virtual.'
+                text: 'Diseño y desarrollo de landing page para una película realizada en realidad virtual.',
+                github: 'https://github.com/JuanLoyola',
+                live: '#'
               },
               {
-                name: 'Yoga APP',
+                name: 'Yoga APP EN PROCESO',
                 image: 'https://i.imgur.com/ivUnXYm.png',
-                text: 'Diseño y desarrollo de landing page para aplicación de Yoga, proyecto personal usando REST API. '
+                text: 'Diseño y desarrollo de landing page para aplicación de Yoga, proyecto personal usando REST API. ',
+                github: 'https://github.com/JuanLoyola',
+                live: '#'
               },
               {
-                name: 'Landing for e-commerce',
+                name: 'Landing for e-commerce EN PROCESO',
                 image: 'https://i.imgur.com/H4VNBDP.png',
-                text: 'Diseño y desarrollo de landing page para E-commerce.'
+                text: 'Diseño y desarrollo de landing page para E-commerce.',
+                github: 'https://github.com/JuanLoyola',
+                live: '#'
               }
             ]
           }

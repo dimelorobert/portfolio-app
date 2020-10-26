@@ -8,26 +8,20 @@
       <div class="container__horizontal__vertical--right">
         <div>
           <h2 class="animate__animated animate__backInRight animate__delay-2s">
-            Hola, ¿Cómo estás?
+            {{ $t('me.title') }}
           </h2>
           <br>
           <div>
-            <p class="animate__animated animate__backInRight animate__delay-3s">
-              Mi nombre es <strong>Juan</strong>. Me dedico al desarrollo web, más precisamente Front-end. Soy un apasionado desde chico por aprender lo más posible por mi constante necesidad de adquirir nuevos conocimientos en distintas áreas.
-            </p>
+            <p class="animate__animated animate__backInRight animate__delay-3s" v-html="$t('me.paragraph1')" />
           </div>
           <br>
-          <p class="animate__animated animate__backInRight animate__delay-3s">
-            Dado esto empecé a educarme como autodidacta y me considero motivado constantemente para lograr seguir desarrollando mis habilidades, para así crecer profesionalmente como Desarrollador Full-Stack.
-          </p>
+          <p class="animate__animated animate__backInRight animate__delay-3s"  v-html="$t('me.paragraph2')"/>
           <br>
-          <p class="animate__animated animate__backInRight animate__delay-3s">
-            Ofrezco un <strong>servicio personalizado</strong> y flexible, ya sea por proyecto o con planes mensuales. Según las necesidades de cada persona desde el inicio hasta el final del proyecto. <strong>¡Desde Buenos Aires al mundo!</strong>
-          </p>
+          <p class="animate__animated animate__backInRight animate__delay-3s" v-html="$t('me.paragraph3')"/>
           <br>
           <p class="animate__animated animate__backInRight animate__delay-3s">
             <strong>Skills </strong> <br>
-            HTML | CSS | JavaScript |  Vue.js | Bootstrap | SCSS | BEM | Visual Studio Code | Git | Github | Figma | Gestión por objetivos | Aprendizaje continuo | Creatividad |
+            {{ $t('me.skills') }}
           </p>
         </div>
       </div>
