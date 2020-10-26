@@ -6,6 +6,15 @@ import i18n from './i18n'
 
 Vue.config.productionTip = false
 
+router.beforeEach((to, from, next) => {
+  let language = to.params.lang
+  if (!language) {
+    language = 'es'
+  }
+  i18n.locale = language
+  next()
+})
+
 new Vue({
   router,
   store,

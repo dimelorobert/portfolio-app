@@ -28,9 +28,8 @@
           </div>
 
             <div class="author-name">
-              <p>{{item.text}}</p>
               <a :href= "item.github" target="_blank">Github</a>
-              <a :href= "item.live" >Live</a>
+              <a :href= "item.live" target="_blank" >Live</a>
             </div>
           <div class="tags">
             <p>html</p>
@@ -39,6 +38,7 @@
           </div>
         </article>
       </section>
+      <p class="alert"> {{$t('project.alert')}}</p>
     </div>
   </div>
 </template>
@@ -88,7 +88,7 @@
       display:flex;
       flex-direction: column;
       &__info{
-        margin: 30px;
+        margin: 20px;
         width: auto;
         display:flex;
         flex-direction: column;
@@ -146,12 +146,12 @@
       }
 
       .card-header {
-        margin-bottom: auto;
+        margin-bottom: 50px;
       }
 
       .card-header h2 {
         font-size: 20px;
-        margin: .25rem 0 auto;
+        margin: .30rem 0 auto;
         text-decoration: none;
         color: #fff;
         border: 0;
@@ -262,53 +262,37 @@ export default {
           {
             variants: [
               {
-                name: 'Birds EN PROCESO',
-                image: 'https://i.imgur.com/gB9SkK8.png',
-                text: 'Diseño y desarrollo de landing page, proyecto usando REST API.',
-                github: 'https://github.com/JuanLoyola',
-                live: '#'
-              },
-              {
-                name: 'Tanzee Co EN PROCESO ',
-                image: 'https://i.imgur.com/Xhs9gXO.png',
-                text: 'Diseño y desarrollo de landing page para una startup.',
-                github: 'https://github.com/JuanLoyola',
-                live: '#'
-              },
-              {
-                name: 'Weather app',
-                image: 'https://i.imgur.com/Bxy6Oy0.png',
-                text: 'Diseño y desarrollo de una app de clima, donde escribis el pais/lugar para obtener la información.',
-                github: 'https://github.com/JuanLoyola/weather-app',
-                live: 'https://weather-app-afa7.hostman.site'
+                name: 'Birds',
+                image: 'https://i.imgur.com/gB9SkK8.png'
               },
               {
                 name: 'Blog',
                 image: 'https://i.imgur.com/4UGWcqj.png',
-                text: 'Diseño y desarrollo de un Blog con animaciones.',
                 github: 'https://github.com/JuanLoyola/Blog-Animations',
                 live: 'https://blog-animations.hostman.site'
               },
               {
-                name: 'Vr film EN PROCESO',
-                image: 'https://i.imgur.com/LSDOHmK.png',
-                text: 'Diseño y desarrollo de landing page para una película realizada en realidad virtual.',
-                github: 'https://github.com/JuanLoyola',
-                live: '#'
+                name: 'Vr film',
+                image: 'https://i.imgur.com/LSDOHmK.png'
               },
               {
-                name: 'Yoga APP EN PROCESO',
-                image: 'https://i.imgur.com/ivUnXYm.png',
-                text: 'Diseño y desarrollo de landing page para aplicación de Yoga, proyecto personal usando REST API. ',
-                github: 'https://github.com/JuanLoyola',
-                live: '#'
+                name: 'Yoga App',
+                image: 'https://i.imgur.com/ivUnXYm.png'
               },
               {
-                name: 'Landing for e-commerce EN PROCESO',
-                image: 'https://i.imgur.com/H4VNBDP.png',
-                text: 'Diseño y desarrollo de landing page para E-commerce.',
-                github: 'https://github.com/JuanLoyola',
-                live: '#'
+                name: 'Landing e-commerce',
+                image: 'https://i.imgur.com/H4VNBDP.png'
+              },
+              {
+                name: 'Punchbag minigame',
+                image: 'https://i.imgur.com/v6pBR0M.png',
+                github: 'https://github.com/JuanLoyola/punchbag-game'
+              },
+              {
+                name: 'Weather app',
+                image: 'https://i.imgur.com/Bxy6Oy0.png',
+                github: 'https://github.com/JuanLoyola/weather-app',
+                live: 'https://weather-app-afa7.hostman.site'
               }
             ]
           }

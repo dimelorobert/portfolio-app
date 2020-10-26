@@ -5,7 +5,8 @@
     "about": "About me",
     "service": "Services",
     "portfolio": "Portfolio",
-    "contact": "Contact"
+    "contact": "Contact",
+    "language": "Language"
   },
   "banner":{
     "title": "<span class='important'>Front-end</span> web developer",
@@ -19,28 +20,28 @@
     "paragraph3": "I offer a <strong>personalized and flexible service</strong>, either by project or with monthly plans. According to the needs of each person from the beginning to the end of the project, <strong>from Buenos Aires to the world!</strong>",
     "skills": "HTML | CSS | JavaScript | Vue.js | Bootstrap | SCSS | BEM | Visual Studio Code | Git | Github | Figma | Management by objectives | Continuous learning | Creativity |"
   },
-  "services": [
-    {
-      "title": "Web development",
-      "content": "Development of web pages to promote all types and sizes of companies. I offer solutions in every part of the life cycle of a website or application: design, programming and continuous improvement, we can achieve the best results with the most efficient technologies."
-    },
-    {
-      "title": "E-commerce",
-      "content": "Did you come up with a great deal? Do you want to go a step further than your physical location? We can boost your project with the use of the most modern APIs in order to reach more customers, offer product information and facilitate support to the Marketing department."
-    },
-    {
-      "title": "Responsive Design",
-      "content": "Responsive web page design so that your business can be viewed from any device. Nowadays one of the important parts of a website or application is to be able to guarantee a correct performance and visualization wherever it is used."
-    },
-    {
-      "title": "Do you need anything else?",
-      "content": "If you are the kind of client where every day you think of new ways to boost your business or simply find your current website old, you can contact me to talk about your ideas or projects you have in mind to bring the work together and show the world that great idea of yours."
-    }
-  ],
+  "development": {
+    "title": "Web development",
+    "content": "Development of web pages to promote all types and sizes of companies. I offer solutions in every part of the life cycle of a website or application: design, programming and continuous improvement, we can achieve the best results with the most efficient technologies."
+  },
+  "design": {
+    "title": "Responsive Design",
+    "content": "Responsive web page design so that your business can be viewed from any device. Nowadays one of the important parts of a website or application is to be able to guarantee a correct performance and visualization wherever it is used."
+  },
   "project":{
     "banner": "Do you want us to work together?",
     "btn": "let's talk",
     "text": "I create strong projects, with identity.",
-    "git": "(In process)"
+    "git": "(In process)",
+    "alert": "*Some projects may not be available as they are constantly changing."
+  },
+  "contact":{
+    "title": "Contact",
+    "sentence": "“You've seen the goods, now meet the man. Reach out and let us consider joining forces for the greater good.”",
+    "btn": "View profile",
+    "email": "Send email"
+  },
+  "footer":{
+    "message": "© Made with <3 by Juan Loyola. HTML, CSS, JS (w/ Vue.js)"
   }
 }

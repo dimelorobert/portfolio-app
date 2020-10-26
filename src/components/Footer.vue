@@ -2,7 +2,7 @@
   <div class="container">
     <div class="container__info">
       <p>
-        © Hecho con &lt;3 por <strong>Juan Loyola</strong>. HTML, CSS, JS  (w/ Vue.js)
+        {{$t('footer.message')}}
       </p>
     </div>
   </div>
@@ -24,7 +24,7 @@
       display: flex;
       color: #f1f1f1;
     }
-    &__info strong{
+    .import{
       color: rgb(248, 134, 93);
     }
   }

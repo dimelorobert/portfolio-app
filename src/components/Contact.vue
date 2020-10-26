@@ -4,11 +4,10 @@
       <div class="contact__banner">
         <div class="contact__banner--info">
           <h2>
-            Contacto
+            {{$t('contact.title')}}
           </h2>
             <p>
-              “You've seen the goods, now meet the man.
-              Reach out and let us consider joining forces for the greater good.”
+              {{$t('contact.sentence')}}
             </p>
         </div>
           <div class="contact__banner--social">
@@ -21,7 +20,7 @@
                     Github
                   </h2>
                   </div>
-                    <a class="social" href="https://github.com/JuanLoyola" target="_blank">Ver perfil</a>
+                    <a class="social" href="https://github.com/JuanLoyola" target="_blank">{{$t('contact.btn')}}</a>
                 </div>
               </div>
               <div>
@@ -33,7 +32,7 @@
                       LinkedIn
                     </h2>
                   </div>
-                    <a class="social" href="https://www.linkedin.com/in/LoyolaJuan" target="_blank">Ver perfil</a>
+                    <a class="social" href="https://www.linkedin.com/in/LoyolaJuan" target="_blank">{{$t('contact.btn')}}</a>
                 </div>
               </div>
               </div>
@@ -47,7 +46,7 @@
                   </h2>
                 </div>
                 <a href="mailto:juan.loyola1@hotmail.com" class="social">
-                  Enviar email
+                  {{$t('contact.email')}}
                 </a>
               </div>
                 </div>

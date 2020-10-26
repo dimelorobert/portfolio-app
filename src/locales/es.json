@@ -5,7 +5,8 @@
     "about": "Sobre mi",
     "service": "Servicios",
     "portfolio": "Portfolio",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "language": "Idioma"
   },
   "banner":{
     "title": "Desarrollador <span class='important'>Front-end</span>",
@@ -19,28 +20,28 @@
     "paragraph3": "Ofrezco un <strong>servicio personalizado</strong> y flexible, ya sea por proyecto o con planes mensuales. Según las necesidades de cada persona desde el inicio hasta el final del proyecto. <strong>¡Desde Buenos Aires al mundo!</strong>",
     "skills": "HTML | CSS | JavaScript | Vue.js | Bootstrap | SCSS | BEM | Visual Studio Code | Git | Github | Figma | Gestión por objetivos | Aprendizaje continuo | Creatividad |"
   },
-  "services" : [
-    {
+  "development" : {
       "title": "Desarrollo web",
       "content": "Desarrollo de páginas web para impulsar todo tipo y tamaño de empresas. Para ello ofrezco soluciones en cada parte del ciclo de vida de un sitio web o aplicación: diseño, programación y mejora continua, podemos lograr los mejores resultados con las tecnologías más eficientes."
     },
-    {
-      "title": "e-commerce",
-      "content": "¿Se le ocurrió un excelente negocio? ¿Quiere dar un paso más alla de su local físico? Podemos impulsar su proyecto con el uso de las más modernas APIs con el fin de llegar a más clientes, ofrecer información de productos y facilitar el soporte al departamento de Marketing."
-    },
-    {
-      "title": "Diseño de respuesta",
+    "design": {
+      "title": "Diseño adaptativo",
       "content": "Diseño de paginas web responsive para que tu emprendimiento pueda ser visualizado desde todo dispositivo. En la actualidad una de las partes importantes de un sitio web o aplicación es poder garantizar un correcto desempeño y visualización donde sea que se lo utilice."
     },
-    {
-      "title": "¿Necesita algo más?",
-      "content": "Si usted es el tipo de cliente donde día a día se le ocurren nuevas formas de impulsar su negocio o simplemente encuentra antiguo su sitio web actual, puede contactarme para hablar sobre sus ideas o proyectos que tiene en mente para llevar el trabajo en conjunto y mostrarle al mundo esa gran idea suya."
-    }
-  ],
   "project": {
     "title": "¿Querés que trabajemos juntos?",
     "btn": "hablemos",
     "text": "Creo proyectos fuertes, con identidad.",
-    "git": "(En proceso)"
+    "git": "(En proceso)",
+    "alert": "*Es posible que no haya disponible ciertos proyectos ya que los mismos estan en constante cambio."
+  },
+  "contact":{
+    "title": "Contacto",
+    "sentence": "“Has visto la mercancía, ahora conoce al hombre. Extiende la mano y consideremos unir fuerzas.“",
+    "btn": "Ver perfil",
+    "email": "Enviar email"
+  },
+  "footer":{
+    "message": "© Hecho con <3 por Juan Loyola. HTML, CSS, JS (w/ Vue.js)"
   }
 }

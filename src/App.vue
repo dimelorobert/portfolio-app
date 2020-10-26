@@ -19,6 +19,7 @@
         <li><a href="#service">{{ $t ('nav.service') }}</a></li>
         <li><a href="#portfolio">{{ $t ('nav.portfolio') }}</a></li>
         <li><a href="#contact">{{ $t ('nav.contact') }}</a></li>
+        <languageSwitcher></languageSwitcher>
       </ul>
       </div>
     </div>
@@ -56,6 +57,13 @@
   position: sticky;
   top: 0;
 
+  .lang{
+    margin: 0 20px;
+    .flag{
+      width: 25px;
+      height: 25px
+    }
+  }
   .name {
     font-family: 'red rose';
   }
@@ -180,3 +188,13 @@
     }
   }
 </style>
+
+<script>
+import languageSwitcher from '@/components/LanguageSwitcher.vue'
+export default {
+  name: 'app',
+  components: {
+    languageSwitcher
+  }
+}
+</script>

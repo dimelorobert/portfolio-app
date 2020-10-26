@@ -41,6 +41,7 @@
     color: #333;
     font-family: 'Poppins';
     background-size: 100% cover;
+    height: 250px;
     display:block;
     box-shadow: 3px 3px 12px #333;
 
@@ -146,7 +147,7 @@
       background-repeat: no-repeat;
       background-position-y: center;
       background-position: right;
-      background-size: 45%;
+      background-size: 55%;
 
       &__info{
         justify-content:flex-start;

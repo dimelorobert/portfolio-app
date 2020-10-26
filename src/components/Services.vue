@@ -1,13 +1,22 @@
 <template>
   <div id="service" class="container">
-    <div class="container__card" v-for="(item, index) in images.variant" :key="index">
+    <div class="container__card">
       <div class="card__title">
         <h2>
-          {{$t('services[0].title')}}
+          {{$t('development.title')}}
         </h2>
-        <img :src="item.image" alt="projects">
+        <img src="https://i.imgur.com/yZevfRF.png" alt="projects">
       </div>
-      <p>{{$t('services[1].content')}}</p>
+      <p>{{$t('development.content')}}</p>
+    </div>
+    <div class="container__card">
+      <div class="card__title">
+        <h2>
+          {{$t('design.title')}}
+        </h2>
+        <img src="https://i.imgur.com/s4nkaGt.png" alt="projects">
+      </div>
+      <p>{{$t('design.content')}}</p>
     </div>
   </div>
 </template>
@@ -70,26 +79,6 @@
 
 <script>
 export default {
-  name: 'Services',
-  data () {
-    return {
-      images: {
-        variant: [
-          {
-            image: 'https://i.imgur.com/yZevfRF.png'
-          },
-          {
-            image: 'https://i.imgur.com/M0UoXXG.png'
-          },
-          {
-            image: 'https://i.imgur.com/s4nkaGt.png'
-          },
-          {
-            image: 'https://i.imgur.com/ACYWGRR.png'
-          }
-        ]
-      }
-    }
-  }
+  name: 'Services'
 }
 </script>
