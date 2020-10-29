@@ -286,7 +286,8 @@ export default {
               {
                 name: 'Punchbag minigame',
                 image: 'https://i.imgur.com/v6pBR0M.png',
-                github: 'https://github.com/JuanLoyola/punchbag-game'
+                github: 'https://github.com/JuanLoyola/punchbag-game',
+                live: 'https://punchbag-game.netlify.app'
               },
               {
                 name: 'Weather app',
