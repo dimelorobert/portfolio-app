@@ -31,7 +31,7 @@
   "project":{
     "banner": "Do you want us to work together?",
     "btn": "let's talk",
-    "text": "I create strong projects, with identity.",
+    "text": "Some of my works.",
     "git": "(In process)",
     "alert": "*Some projects may not be available as they are constantly changing."
   },
@@ -42,6 +42,6 @@
     "email": "Send email"
   },
   "footer":{
-    "message": "© Made with <3 by Juan Loyola. HTML, CSS, JS (w/ Vue.js)"
+    "message": "© Made with <3 by Juan Loyola."
   }
 }
