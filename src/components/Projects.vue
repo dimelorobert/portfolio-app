@@ -272,12 +272,14 @@ export default {
                 live: 'https://blog-animations.hostman.site'
               },
               {
-                name: 'Vr film',
-                image: 'https://i.imgur.com/LSDOHmK.png'
+                name: 'Martelli Nails',
+                image: 'https://i.imgur.com/QIq0W3E.png',
+                github: 'https://github.com/JuanLoyola/Nails-lading',
+                live: 'https://martelli-nails.netlify.app'
               },
               {
-                name: 'Yoga App',
-                image: 'https://i.imgur.com/ivUnXYm.png'
+                name: 'Pumita Shoes',
+                image: 'https://i.imgur.com/QQ2D76s.png'
               },
               {
                 name: 'Landing e-commerce',
