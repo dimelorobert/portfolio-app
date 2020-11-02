@@ -272,18 +272,18 @@ export default {
                 live: 'https://blog-animations.hostman.site'
               },
               {
-                name: 'Martelli Nails',
+                name: 'Landing e-commerce',
+                image: 'https://i.imgur.com/H4VNBDP.png'
+              },
+              {
+                name: ' Nails',
                 image: 'https://i.imgur.com/QIq0W3E.png',
                 github: 'https://github.com/JuanLoyola/Nails-lading',
-                live: 'https://martelli-nails.netlify.app'
+                live: 'https://lorem-nails.netlify.app'
               },
               {
                 name: 'Pumita Shoes',
                 image: 'https://i.imgur.com/QQ2D76s.png'
-              },
-              {
-                name: 'Landing e-commerce',
-                image: 'https://i.imgur.com/H4VNBDP.png'
               },
               {
                 name: 'Punchbag minigame',
