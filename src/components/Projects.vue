@@ -257,7 +257,7 @@ export default {
               },
               {
                 name: 'Blog',
-                image: 'https://i.imgur.com/4UGWcqj.png',
+                image: 'https://i.imgur.com/ooBz5sf.png',
                 github: 'https://github.com/JuanLoyola/Blog-Animations',
                 live: 'https://blog-animations.hostman.site',
                 html: 'html',
