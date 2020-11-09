@@ -32,9 +32,9 @@
               <a :href= "item.live" target="_blank" >Live</a>
             </div>
           <div class="tags">
-            <p>html</p>
-            <p>css</p>
-            <p>vue.js</p>
+            <p>{{item.html}}</p>
+            <p>{{item.css}}</p>
+            <p>{{item.javascript  || item.vue}}</p>
           </div>
         </article>
       </section>
@@ -119,7 +119,7 @@
         padding: 1.5rem;
         border-radius: 16px;
         background: #17141d;
-        box-shadow: -1rem 0 1rem #000;
+        box-shadow: -1rem 0 1rem rgba(0, 0, 0, 0.644);
         display: flex;
         flex-direction: column;
         transition: .2s;
@@ -167,25 +167,12 @@
         position: relative;
       }
 
-      .author-name {
-        grid-area: auto;
-        box-sizing: border-box;
-        color: #6d6a6a;
-      }
-
-      .author-name p{
-        grid-area: auto;
-        box-sizing: border-box;
-        color: #f1f1f1;
-        font-size: 13px;
-        text-align: start;
-      }
-
       .author-name a{
         color: rgb(194, 146, 238);
         display:flex;
+        font-weight: 600;
         justify-content: flex-start;
-        margin: 2px;
+        margin: 10px 2px;
       }
 
       .tags {
@@ -200,7 +187,7 @@
       .tags p {
         font-style: normal;
         font-weight: 70px;
-        width: 15%;
+        width: 25%;
         font-size: .5rem;
         color: #7a7a8c;
         text-transform: uppercase;
@@ -215,8 +202,8 @@
       }
 
       .tags p:hover {
-        border: 3px solid rgba(31, 233, 172, 0.726);
-        box-shadow: rgb(145, 141, 141) 1px 0px 28px;
+        border: 3px solid rgba(60, 220, 231, 0.726);
+        box-shadow: rgb(88, 180, 241) 1px 0px 28px;
         color: #f1f1f1;
         cursor:pointer;
       }
@@ -263,39 +250,62 @@ export default {
             variants: [
               {
                 name: 'Birds',
-                image: 'https://i.imgur.com/gB9SkK8.png'
+                image: 'https://i.imgur.com/gB9SkK8.png',
+                html: 'html',
+                css: 'css',
+                vue: 'vue.js'
               },
               {
                 name: 'Blog',
                 image: 'https://i.imgur.com/4UGWcqj.png',
                 github: 'https://github.com/JuanLoyola/Blog-Animations',
-                live: 'https://blog-animations.hostman.site'
+                live: 'https://blog-animations.hostman.site',
+                html: 'html',
+                css: 'css',
+                vue: 'vue.js'
               },
               {
-                name: 'Landing e-commerce',
-                image: 'https://i.imgur.com/H4VNBDP.png'
+                name: 'Generate Password',
+                image: 'https://i.imgur.com/oedfnL8.png',
+                github: 'https://github.com/JuanLoyola/generatePassword',
+                live: 'https://genthepass.netlify.app',
+                html: 'html',
+                css: 'css',
+                javascript: 'javascript'
               },
               {
                 name: ' Nails',
                 image: 'https://i.imgur.com/QIq0W3E.png',
                 github: 'https://github.com/JuanLoyola/Nails-lading',
-                live: 'https://lorem-nails.netlify.app'
+                live: 'https://lorem-nails.netlify.app',
+                html: 'html',
+                css: 'css',
+                vue: 'vue.js'
               },
               {
                 name: 'Pumita Shoes',
-                image: 'https://i.imgur.com/QQ2D76s.png'
+                image: 'https://i.imgur.com/QQ2D76s.png',
+                html: 'html',
+                css: 'css',
+                vue: 'vue.js'
               },
               {
                 name: 'Punchbag minigame',
                 image: 'https://i.imgur.com/v6pBR0M.png',
                 github: 'https://github.com/JuanLoyola/punchbag-game',
-                live: 'https://punchbag-game.netlify.app'
+                live: 'https://punchbag-game.netlify.app',
+                html: 'html',
+                css: 'css',
+                vue: 'vue.js'
               },
               {
                 name: 'Weather app',
                 image: 'https://i.imgur.com/Bxy6Oy0.png',
                 github: 'https://github.com/JuanLoyola/weather-app',
-                live: 'https://weather-app-afa7.hostman.site'
+                live: 'https://weather-app-afa7.hostman.site',
+                html: 'html',
+                css: 'css',
+                vue: 'vue.js'
               }
             ]
           }

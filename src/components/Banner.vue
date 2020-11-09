@@ -10,10 +10,10 @@
       </div>
       <div class="container__btn">
         <a class="container__btn--portfolio" href="#portfolio">
-          {{ $t ('banner.portfolio') }}
+            {{ $t ('banner.portfolio') }}
         </a>
         <a class="container__btn--contacto" href="#contact">
-          {{ $t ('banner.contact') }}
+            {{ $t ('banner.contact') }}
         </a>
       </div>
       <div class="container__social">
@@ -49,6 +49,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
     .important{
       color: #f79a83;
       font-weight: bold;
@@ -202,6 +203,8 @@
     }
   }
 </style>
+
+<script src="FadeIn.js"></script>
 
 <script>
 export default {
