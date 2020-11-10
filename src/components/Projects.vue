@@ -249,11 +249,13 @@ export default {
           {
             variants: [
               {
-                name: 'Birds',
-                image: 'https://i.imgur.com/gB9SkK8.png',
+                name: '3D Mario Bros Card',
+                image: 'https://i.imgur.com/PTXzEFS.png',
+                github: 'https://github.com/JuanLoyola/mario',
+                live: 'https://mymario.netlify.app',
                 html: 'html',
                 css: 'css',
-                vue: 'vue.js'
+                javascript: 'javascript'
               },
               {
                 name: 'Blog',
